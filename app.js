@@ -127,3 +127,20 @@ function describeAnimal(noun = "cat", adjective = "orange") {
 
 describeAnimal();
 describeAnimal("dog", "fluffy");
+
+// ! Exercise 9:
+// a. Convert the following `if...else` statement into a ternary:
+//
+//    if (pizza === 'tasty') {
+//      console.log('yum');
+//    } else {
+//      console.log('yuck');
+//    }
+//
+// Starting code (don't modify this):
+
+const pizza = "tasty";
+
+// Your code here:
+
+console.log(`${pizza == "tasty" ? "yum" : "yuck"}`);
